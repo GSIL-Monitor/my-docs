@@ -1,7 +1,7 @@
 #### 多sheet合并的VBA
 
 ##### 地方数据汇总
-```javascript
+```vb
 Sub DownGather()
     Application.DisplayAlerts = False
     Application.ScreenUpdating = False
@@ -29,7 +29,7 @@ Sub DownGather()
 End Sub
 ```
 ##### 行业数据汇总
-```javascript
+```vb
 Sub DownGather()
     Application.DisplayAlerts = False
     Application.ScreenUpdating = False
@@ -65,7 +65,7 @@ Sub DownGather()
 End Sub
 ```
 ##### 行业筛选
-```javascript
+```vb
 Sub 筛选行业()
 '
 ' 筛选行业 宏
@@ -107,7 +107,7 @@ End Sub
 ```
 
 ##### 拷贝分地区分行业企业数统计数据
-```javascript
+```vb
 Sub 分地区分行业企业数统计()
 '
 ' 分地区分行业企业数统计 宏
@@ -126,7 +126,7 @@ Sub 分地区分行业企业数统计()
     Sheets("分地区分行业企业数统计").Range("A1").Select
 End Sub
 ```
-```javascript
+```vb
 Sub 编辑标题()
 '
 ' 编辑标题 宏
